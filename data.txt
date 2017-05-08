@@ -1,0 +1,162 @@
+Red T-Shirt Male
+Shirt
+12.38
+false
+ABCDEF469
+X-Small, Small, Large, X-Large
+Red T-Shirt Female
+Shirt
+12.99
+true
+123ABC457
+X-Small, Medium, Large, X-Large
+Blue T-Shirt Male
+Shirt
+12.99
+true
+123ABC466
+X-Small, Small, Medium, Large, X-Large
+Blue T-Shirt Female
+Shirt
+12.99
+false
+123ABC467
+X-Small, Small, Medium, Large, X-Large
+Red Sport Shirt Male
+Shirt
+14.99
+true
+123ABB456
+X-Small, Small, Medium, Large, X-Large
+Red Sport Shirt Female
+Shirt
+14.99
+true
+123ABB457
+Small, Medium, Large, X-Large
+Blue Sport Shirt Male
+Shirt
+14.99
+false
+123ABB466
+X-Small, Small, Large, X-Large
+Blue Sport Shirt Female
+Shirt
+14.99
+true
+123ABB467
+X-Small, Small, Medium, Large
+Black Trackpants Male
+Pants
+19.99
+true
+456ABC789
+Small, Medium, Large
+Black Trackpants Female
+Pants
+19.99
+true
+456ABC780
+Small, Medium, Large, X-Large
+Gray Trackpants Male
+Pants
+18.99
+true
+456ABB789
+X-Small, Small, Medium, Large
+Gray Trackpants Female
+Pants
+18.99
+true
+456ABB780
+X-Small, Small, Medium, Large, X-Large
+Gray Sweatpants Male
+Pants
+20.99
+true
+556ABB789
+X-Small, Small, Medium, Large, X-Large
+Gray Sweatpants Female
+Pants
+20.99
+true
+556ABB780
+Medium, Large, X-Large
+Red Shorts Male
+Shorts
+13.99
+false
+313XYZ098
+Small, Large, X-Large
+Red Shorts Female
+Shorts
+13.99
+false
+313XYZ099
+Small, Medium, Large, X-Large
+Black Shorts Male
+Shorts
+13.99
+false
+313XYY098
+Medium, Large, X-Large
+Black Shorts Female
+Shorts
+12.99
+true
+313XYY097
+X-Small, Small, Large, X-Large
+White Long Sleave Shirt Male
+Shirt
+18.99
+false
+789DEF123
+X-Small, Small, Medium, Large, X-Large
+White Long Sleave Shirt Female
+Shirt
+18.99
+true
+789DEF122
+Medium, Large
+Pink Long Sleave Shirt Female
+Shirt
+18.99
+false
+789DEF120
+X-Small, Small, Medium, Large, X-Large
+Graphic Sweater Male
+Sweater
+25.99
+true
+001FGH140
+X-Small, Small, Medium
+Graphic Sweater Female
+Sweater
+25.99
+true
+001FGH141
+X-Small, Medium, X-Large
+Bomber Jacket Male
+Coat
+34.99
+false
+000ABC001
+X-Small, Small, Medium, Large
+Bomber Jacket Female
+Coat
+34.99
+true
+000ABC002
+X-Small, Medium, Large, X-Large
+Windbreaker Male
+Coat
+31.99
+true
+000ABB001
+Small, Medium, Large, X-Large
+Windbreaker Female
+Coat
+31.99
+false
+000ABB002
+Medium

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane fx:id="rootPane" prefHeight="400" prefWidth="420" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinalAssignment.gui.FXMLDocumentController">
+    <BorderPane AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+        <top>
+            <TabPane fx:id="tabPane" tabClosingPolicy="UNAVAILABLE">
+                <tabs>
+                    <Tab text="First Menu" fx:id="tab1">
+                        <content>
+                            <AnchorPane id="Tab1AnchorPane" prefHeight="400" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1">
+                                <BorderPane AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+                                    <top>
+                                        <Label layoutX="15" layoutY="15" text="Select your Clothing Article by Name or Serial Code"/>  
+                                    </top>
+                                    <padding>
+                                        <Insets top="20.0" right="20.0" />
+                                    </padding>
+                                    <center>
+                                        <ListView fx:id="listView"/>
+                                    </center>
+                                    <right>
+                                        <VBox alignment="center" spacing="10">
+                                            <padding>
+                                                <Insets left="15.0" />
+                                            </padding>
+                                            <Button text="Top" onAction="#topButtonEvent" />
+                                            <Button text="Up" onAction="#upButtonEvent" />
+                                            <Button text="Down" onAction="#downButtonEvent" />
+                                            <Button text="Bottom" onAction="#bottomButtonEvent" />
+                                            <Button text="Select" onAction="#selectButtonEvent"/>       
+                                        </VBox>
+                                    </right>   
+                                </BorderPane>   
+                            </AnchorPane>
+                        </content>
+                    </Tab>
+                    <Tab text="Second Menu" fx:id="tab2">
+                        <content>
+                            <AnchorPane id="Tab1AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1">
+                                <BorderPane AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+                                    <top>
+                                        <Label text="Here Is Our Information on Your Selected Product. " /> 
+                                    </top>
+                                    <center>
+                                        <ListView fx:id="listView2"/>
+                                    </center>
+                                    <right>
+                                        <VBox spacing="10">
+                                        <Button text="Edit" fx:id="edit" onAction="#editButtonEvent"/>
+                                        <padding>
+                                            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                        </padding>
+                                        <Button text="Back" fx:id="back" onAction="#backButtonEvent"/>
+                                        </VBox>
+                                    </right>
+                                </BorderPane>
+                            </AnchorPane>
+                        </content>
+                    </Tab>                   
+                </tabs>
+            </TabPane>
+        </top>
+    </BorderPane>
+
+</AnchorPane>
